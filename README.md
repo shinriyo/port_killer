@@ -7,6 +7,9 @@ Overview
 
 It kills process by specify port number.
 
+Support Linux and Mac OS.
+Windows is not supported.
+
 ## Demo
 
 N/A
@@ -24,18 +27,18 @@ Python 2.7.x
 ## kill port 8080 process
 
 ```
-python port_killer.py
+port_killer.py
 ```
 default port number is 8080
 
 ```
-python port_killer.py 8000
+port_killer.py 8000
 ```
 
 ## kill port 3000 process
 
 ```
-python port_killer.py 3000
+port_killer.py 3000
 ```
 
 ## Install
